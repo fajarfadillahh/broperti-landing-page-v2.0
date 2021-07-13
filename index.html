@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Broperti Landing Page</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./img/logo.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="l-header">
+      <nav class="nav container">
+        <!-- header Logo -->
+        <a href="#">
+          <img src="./img/logo.png" alt="" class="nav__logo" />
+        </a>
+
+        <!-- header menu -->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Featured</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Stories</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Partner</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+          </ul>
+
+          <!-- header button -->
+          <div>
+            <a href="#" class="nav__button">My Account</a>
+          </div>
+        </div>
+
+        <!-- header toggle -->
+        <div class="nav__toggle" id="nav-toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path>
+          </svg>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER SECTION -->
+
+    <main class="l-main">
+      <!-- HOME SECTION -->
+      <section class="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Discover Your <br />
+              Own Future Empire <br />
+              Easy Cozy
+            </h1>
+            <p class="home__text">
+              Saving much time by finding the match one <br />
+              using our algorithm that we designed
+            </p>
+          </div>
+
+          <form action="">
+            <div class="home__direction grid">
+              <div class="home__location">
+                <h3 class="home__location-title">Location</h3>
+                <input
+                  type="text"
+                  placeholder="Enter a location"
+                  class="home__location-input"
+                />
+              </div>
+
+              <div class="home__type">
+                <h3 class="home__type-title">Type</h3>
+                <input
+                  type="text"
+                  placeholder="Select type location"
+                  class="home__type-input"
+                />
+              </div>
+
+              <div>
+                <a href="#" class="home__explore">Explore Now</a>
+              </div>
+            </div>
+          </form>
+
+          <img src="./img/home-image.png" alt="" class="home__img" />
+
+          <!-- HOME UNION -->
+          <img src="./img/union.png" alt="" class="home__union" />
+        </div>
+      </section>
+      <!-- HOME SECTION -->
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
